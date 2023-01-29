@@ -1,0 +1,3 @@
+.vscode/**
+.github
+pnpm-lock.yaml

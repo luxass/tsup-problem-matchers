@@ -1,0 +1,132 @@
+{
+  "name": "tsup-problem-matchers",
+  "publisher": "luxass",
+  "displayName": "tsup Problem Matchers",
+  "version": "0.0.1",
+  "description": "Problem matchers for tsup tasks",
+  "author": {
+    "name": "Lucas Norgaard",
+    "email": "lucasnrgaard@gmail.com",
+    "url": "https://luxass.dev"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/luxass/tsup-problem-matchers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxass/tsup-problem-matchers"
+  },
+  "bugs": {
+    "url": "https://github.com/luxass/tsup-problem-matchers/issues"
+  },
+  "keywords": [
+    "tsup",
+    "typescript",
+    "problem matcher",
+    "problem matchers",
+    "tasks"
+  ],
+  "icon": "media/icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "contributes": {
+    "problemMatchers": [
+      {
+        "name": "tsup",
+        "label": "tsup problems with --format esm,cjs",
+        "owner": "tsup",
+        "source": "tsup",
+        "severity": "error",
+        "pattern": [
+          {
+            "regexp": "^✘\\s+\\[ERROR\\]\\s+(.+)$",
+            "message": 1
+          },
+          {
+            "regexp": "^\\s*$"
+          },
+          {
+            "regexp": "^\\s+(.+):(\\d+):(\\d+):$",
+            "file": 1,
+            "line": 2,
+            "column": 3
+          }
+        ],
+        "applyTo": "closedDocuments"
+      },
+      {
+        "base": "$tsup",
+        "name": "tsup-watch",
+        "label": "tsup problems with --format esm,cjs --watch",
+        "background": {
+          "beginsPattern": "^ESM|^CJS Build start$",
+          "endsPattern": "^ESM|^CJS .* Build success|^ESM|^CJS Build failed"
+        }
+      },
+      {
+        "base": "$tsup",
+        "name": "tsup-esm",
+        "label": "tsup problems with --format esm",
+        "background": {
+          "beginsPattern": "^ESM Build start$",
+          "endsPattern": "^ESM .* Build success|^ESM Build failed"
+        }
+      },
+      {
+        "base": "$tsup",
+        "name": "tsup-esm-watch",
+        "label": "tsup problems with --format esm --watch",
+        "background": {
+          "beginsPattern": "^ESM Build start$",
+          "endsPattern": "^ESM .* Build success|^ESM Build failed"
+        }
+      },
+      {
+        "base": "$tsup",
+        "name": "tsup-cjs",
+        "label": "tsup problems with --format cjs",
+        "background": {
+          "beginsPattern": "^CJS Build start$",
+          "endsPattern": "^CJS .* Build success|^CJS Build failed"
+        }
+      },
+      {
+        "base": "$tsup",
+        "name": "tsup-cjs-watch",
+        "label": "tsup problems with --format cjs --watch",
+        "background": {
+          "beginsPattern": "^CJS Build start$",
+          "endsPattern": "^CJS .* Build success|^CJS Build failed"
+        }
+      },
+      {
+        "base": "$tsc",
+        "name": "tsup-dts",
+        "label": "tsup problems with --dts"
+      },
+      {
+        "base": "$tsup-dts",
+        "name": "tsup-dts-watch",
+        "label": "tsup problems with --dts --watch",
+        "background": {
+          "beginsPattern": "^DTS Build start$",
+          "endsPattern": "^DTS .* Build success|^DTS Build failed"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "package": "pnpm vsce package --no-dependencies",
+    "release": "pnpm vsce publish --no-dependencies",
+    "lint": "eslint --cache ."
+  },
+  "devDependencies": {
+    "@luxass/eslint-config": "^2.2.6",
+    "@luxass/prettier-config": "^1.1.4",
+    "@types/vscode": "^1.70.0",
+    "@vscode/vsce": "^2.17.0",
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
+  }
+}
