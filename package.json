@@ -121,7 +121,7 @@
     "lint": "eslint --cache ."
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^2.2.6",
+    "@luxass/eslint-config": "^3.0.0",
     "@luxass/prettier-config": "^1.1.4",
     "@types/vscode": "^1.70.0",
     "@vscode/vsce": "^2.17.0",
