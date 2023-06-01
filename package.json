@@ -1,11 +1,11 @@
 {
-  "name": "tsup-problem-matchers",
   "publisher": "luxass",
+  "name": "tsup-problem-matchers",
   "displayName": "tsup Problem Matchers",
   "version": "0.0.1",
   "description": "Problem matchers for tsup tasks",
   "author": {
-    "name": "Lucas Norgaard",
+    "name": "Lucas Nørgård",
     "email": "lucasnrgaard@gmail.com",
     "url": "https://luxass.dev"
   },
@@ -118,15 +118,14 @@
   "scripts": {
     "package": "pnpm vsce package --no-dependencies",
     "release": "pnpm vsce publish --no-dependencies",
-    "lint": "eslint --cache ."
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^3.0.0",
-    "@luxass/prettier-config": "^1.1.4",
+    "@luxass/eslint-config": "^3.2.0",
     "@types/vscode": "^1.70.0",
-    "@vscode/vsce": "^2.17.0",
-    "eslint": "^8.32.0",
-    "prettier": "^2.8.3",
-    "typescript": "^5.0.0"
+    "@vscode/vsce": "^2.19.0",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4"
   }
 }
