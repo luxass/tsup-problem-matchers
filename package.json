@@ -2,7 +2,7 @@
   "publisher": "luxass",
   "name": "tsup-problem-matchers",
   "displayName": "tsup Problem Matchers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Problem matchers for tsup tasks",
   "author": {
     "name": "Lucas Nørgård",
