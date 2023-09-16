@@ -3,7 +3,7 @@
   "name": "tsup-problem-matchers",
   "displayName": "tsup Problem Matchers",
   "version": "0.0.2",
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.7.5",
   "description": "Problem matchers for tsup tasks",
   "author": {
     "name": "Lucas Nørgård",
