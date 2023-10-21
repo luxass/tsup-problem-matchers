@@ -74,3 +74,7 @@ If you are using [Turborepo](https://turbo.build/repo), you can use the followin
   ]
 }
 ```
+
+## 📄 License
+
+Published under [MIT License](./LICENSE).

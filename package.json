@@ -2,7 +2,7 @@
   "publisher": "luxass",
   "name": "tsup-problem-matchers",
   "displayName": "tsup Problem Matchers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@8.9.2",
   "description": "Problem matchers for tsup tasks",
   "author": {
@@ -123,10 +123,10 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^3.2.2",
+    "@luxass/eslint-config": "^3.3.2",
     "@types/vscode": "^1.70.0",
-    "@vscode/vsce": "^2.19.0",
-    "eslint": "^8.45.0",
-    "typescript": "^5.1.6"
+    "@vscode/vsce": "^2.21.1",
+    "eslint": "^8.52.0",
+    "typescript": "^5.2.2"
   }
 }
