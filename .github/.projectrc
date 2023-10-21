@@ -1,3 +1,4 @@
 {
-  "$schema": "https://projectrc.luxass.dev/schema"
+  "$schema": "https://projectrc.luxass.dev/schema",
+  "website": true
 }
