@@ -1,6 +1,6 @@
 # tsup-problem-matchers
 
-> Inspired by [esbuild-problem-matchers](https://github.com/connor4312/esbuild-problem-matchers)
+Inspired by [esbuild-problem-matchers](https://github.com/connor4312/esbuild-problem-matchers)
 
 ## Problem Matchers
 
