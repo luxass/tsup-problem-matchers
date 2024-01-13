@@ -123,7 +123,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^3.3.2",
+    "@luxass/eslint-config": "^4.0.0",
     "@types/vscode": "^1.70.0",
     "@vscode/vsce": "^2.21.1",
     "eslint": "^8.52.0",
