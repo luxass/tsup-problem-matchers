@@ -1,8 +1,10 @@
 # tsup-problem-matchers
 
+[![vsmarketplace-installs][vsmarketplace-installs-src]][vsmarketplace-installs-href]
+
 Inspired by [esbuild-problem-matchers](https://github.com/connor4312/esbuild-problem-matchers)
 
-## Problem Matchers
+## Builtin Problem Matchers
 
 - `$tsup` - Matches errors and warnings from `tsup --format esm,cjs` output
 - `$tsup-watch` - Matches errors and warnings from `tsup --format esm,cjs --watch` output
@@ -13,7 +15,7 @@ Inspired by [esbuild-problem-matchers](https://github.com/connor4312/esbuild-pro
 - `$tsup-dts` - Matches errors and warnings from `tsup --dts` output
 - `$tsup-dts-watch` - Matches errors and warnings from `tsup --dts --watch` output
 
-## Usage
+## 📚 Usage
 
 To use this, add the `tsup` or `tsup-watch` problem matcher to your tasks.json, as appropriate. For example:
 
@@ -40,9 +42,8 @@ To use this, add the `tsup` or `tsup-watch` problem matcher to your tasks.json, 
 }
 ```
 
-## TSUP With Turborepo
-
-If you are using [Turborepo](https://turbo.build/repo), you can use the following configuration:
+> ![NOTE]
+> If you are using [`Turborepo`](https://turbo.build/repo), you can use the following configuration
 
 ```json
 {
@@ -74,6 +75,11 @@ If you are using [Turborepo](https://turbo.build/repo), you can use the followin
   ]
 }
 ```
+
+<!-- Badges -->
+
+[vsmarketplace-installs-src]: https://img.shields.io/visual-studio-marketplace/i/luxass.tsup-problem-matchers?style=flat&colorA=18181B&colorB=4169E1
+[vsmarketplace-installs-href]: https://marketplace.visualstudio.com/items?itemName=luxass.tsup-problem-matchers
 
 ## 📄 License
 
