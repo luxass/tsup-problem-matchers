@@ -9,22 +9,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.1.7
 
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v4.0.0
+      - name: setup pnpm
+        uses: pnpm/action-setup@v4
 
-      - name: Setup Node
+      - name: setup node
         uses: actions/setup-node@v4.0.3
         with:
-          node-version: 18
-          cache: pnpm
+          node-version: 20
+          cache: 'pnpm'
 
-      - name: Install dependencies
+      - name: install dependencies
         run: pnpm install
 
-      - name: Publish
+      - name: publish
         if: success() && startsWith(github.ref, 'refs/tags/')
         run: |
           PUBLISHED=$(pnpm vsce search tsup-problem-matchers --json | jq '.' 2>/dev/null | jq -r '.[].versions[0].version')

@@ -119,15 +119,15 @@
   "scripts": {
     "package": "pnpm vsce package --no-dependencies",
     "release": "pnpm vsce publish --no-dependencies",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "biome lint",
+    "lint:fix": "biome lint --write",
+    "format": "biome format",
+    "format:fix": "biome format --write"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^4.12.1",
+    "@biomejs/biome": "1.9.0",
     "@types/vscode": "^1.80.0",
     "@vscode/vsce": "^3.1.0",
-    "eslint": "^9.10.0",
-    "eslint-plugin-format": "^0.1.2",
     "typescript": "^5.6.2"
   }
 }
