@@ -3,7 +3,7 @@
   "name": "tsup-problem-matchers",
   "displayName": "tsup Problem Matchers",
   "version": "1.0.0",
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.10.0",
   "description": "Problem matchers for tsup tasks",
   "author": {
     "name": "Lucas Nørgård",
@@ -28,7 +28,7 @@
   ],
   "icon": "media/icon.png",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.93.0"
   },
   "contributes": {
     "problemMatchers": [
@@ -123,10 +123,10 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@luxass/eslint-config": "^4.8.3",
-    "@types/vscode": "^1.70.0",
-    "@vscode/vsce": "^2.29.0",
-    "eslint": "^9.6.0",
-    "typescript": "^5.5.2"
+    "@luxass/eslint-config": "^4.12.1",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^3.1.0",
+    "eslint": "^9.10.0",
+    "typescript": "^5.6.2"
   }
 }
