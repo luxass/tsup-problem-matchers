@@ -46,8 +46,7 @@ To use this, add the `tsup` or `tsup-watch` problem matcher to your tasks.json, 
 <br/>
 <br/>
 
-
-> [!NOTE]  
+> [!NOTE]
 > If you are using [`Turborepo`](https://turbo.build/repo), you can use the following configuration
 
 ```json
