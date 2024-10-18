@@ -6,7 +6,10 @@ on:
       - "*"
 
 jobs:
-  deploy:
+  release:
+    permissions:
+      id-token: write
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.1
@@ -18,6 +21,10 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
+
+      - run: pnpx changelogithub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
         run: pnpm install
