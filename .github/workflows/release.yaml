@@ -31,9 +31,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build
-        run: pnpm build
-
       - name: Publish to Visual Studio Marketplace
         uses: luxass/publish-vscode-extension@main
         with:
