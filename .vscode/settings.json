@@ -12,5 +12,5 @@
     "quickFix.biome": "explicit",
     "source.fixAll.biome": "explicit"
   },
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
