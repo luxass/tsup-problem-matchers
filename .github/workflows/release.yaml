@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - "*"
+      - "v*"
 
 jobs:
   release:
@@ -15,23 +15,23 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           fetch-depth: 0
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v4
 
-      - name: Setup Node
+      - name: install pnpm
+        uses: pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2 # v4.0.0
+
+      - name: setup node
         uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
-          node-version: 20
-          cache: pnpm
+          node-version: lts/*
 
       - run: pnpx changelogithub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install dependencies
+      - name: install dependencies
         run: pnpm install
 
-      - name: Publish to Visual Studio Marketplace
+      - name: publish to visual studio marketplace
         uses: luxass/publish-vscode-extension@main
         with:
           token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
@@ -40,7 +40,7 @@ jobs:
           dry-run: false
 
 
-      - name: Publish to Open VSX
+      - name: publish to open vsx
         uses: luxass/publish-vscode-extension@main
         with:
           token: ${{ secrets.OPENVSX_MARKETPLACE_TOKEN }}
