@@ -1,0 +1,138 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build:cjs-esm",
+      "group": "build",
+      "problemMatcher":["$tsup", "$tsup-dts"],
+      "isBackground": false,
+      "label": "build:cjs-esm",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "dev:cjs-esm",
+      "group": "build",
+      "problemMatcher":["$tsup-watch", "$tsup-dts-watch"],
+      "isBackground": false,
+      "label": "dev:cjs-esm",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:esm",
+      "group": "build",
+      "problemMatcher":["$tsup-esm", "$tsup-dts"],
+      "isBackground": false,
+      "label": "build:esm",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "dev:esm",
+      "group": "build",
+      "problemMatcher":["$tsup-esm-watch", "$tsup-dts-watch"],
+      "isBackground": false,
+      "label": "dev:esm",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:cjs",
+      "group": "build",
+      "problemMatcher":["$tsup-cjs", "$tsup-dts"],
+      "isBackground": false,
+      "label": "build:cjs",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "dev:cjs",
+      "group": "build",
+      "problemMatcher": ["$tsup-cjs-watch", "$tsup-dts-watch"],
+      "isBackground": false,
+      "label": "dev:cjs",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+
+    {
+      "type": "npm",
+      "script": "build:cjs-esm:error",
+      "group": "build",
+      "problemMatcher":["$tsup", "$tsup-dts"],
+      "isBackground": false,
+      "label": "build:cjs-esm:error",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "dev:cjs-esm:error",
+      "group": "build",
+      "problemMatcher":["$tsup-watch", "$tsup-dts-watch"],
+      "isBackground": false,
+      "label": "dev:cjs-esm:error",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:esm:error",
+      "group": "build",
+      "problemMatcher":["$tsup-esm", "$tsup-dts"],
+      "isBackground": false,
+      "label": "build:esm:error",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "dev:esm:error",
+      "group": "build",
+      "problemMatcher":["$tsup-esm-watch", "$tsup-dts-watch"],
+      "isBackground": false,
+      "label": "dev:esm:error",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "build:cjs:error",
+      "group": "build",
+      "problemMatcher":["$tsup-cjs", "$tsup-dts"],
+      "isBackground": false,
+      "label": "build:cjs:error",
+      "presentation": {
+        "reveal": "silent"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "dev:cjs:error",
+      "group": "build",
+      "problemMatcher": ["$tsup-cjs-watch", "$tsup-dts-watch"],
+      "isBackground": false,
+      "label": "dev:cjs:error",
+      "presentation": {
+        "reveal": "silent"
+      }
+    }
+  ]
+}
