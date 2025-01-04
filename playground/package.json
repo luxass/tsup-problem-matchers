@@ -17,6 +17,7 @@
     "dev:cjs:error": "tsup --dts --watch --format cjs ./src/error.ts"
   },
   "devDependencies": {
+    "@types/node": "catalog:",
     "tsup": "catalog:",
     "typescript": "catalog:"
   }
