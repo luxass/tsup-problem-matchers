@@ -6,4 +6,4 @@ catalog:
   "@biomejs/biome": ^1.9.4
   "@vscode/vsce": ^3.2.1
   tsup: ^8.3.5
-  "@types/node": ^20.17.11
+  "@types/node": ^22.0.0
