@@ -9,7 +9,7 @@
     "url": "https://luxass.dev"
   },
   "publisher": "luxass",
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.10.0",
   "license": "MIT",
   "homepage": "https://github.com/luxass/tsup-problem-matchers",
   "repository": {
