@@ -2,8 +2,8 @@ packages:
   - "playground"
 
 catalog:
-  typescript: 5.8.3
+  typescript: 5.9.3
   "@biomejs/biome": 1.9.4
-  "@vscode/vsce": 3.6.0
-  tsup: 8.5.0
-  "@types/node": 22.16.3
+  "@vscode/vsce": 3.7.1
+  tsup: 8.5.1
+  "@types/node": 22.19.7
