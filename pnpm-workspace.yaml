@@ -5,5 +5,5 @@ catalog:
   typescript: 5.8.3
   "@biomejs/biome": 1.9.4
   "@vscode/vsce": 3.6.0
-  tsup: 8.5.0
+  tsup: 9.0.0
   "@types/node": 22.16.3
