@@ -1,3 +1,161 @@
+---
+lockfileVersion: '9.0'
+
+importers:
+
+  .:
+    configDependencies: {}
+    packageManagerDependencies:
+      pnpm:
+        specifier: 12.15.0
+        version: 12.15.0
+
+packages:
+
+  '@pnpm/exe.android-arm64@12.15.0':
+    resolution: {integrity: sha512-eVCqmscY70LGvgRzu3mi8IBWBFGix+a6mNZoWmXxESsBdeiKEF9xQSuaeel10yn+zI7TXy2jlI63vFLzETk+aQ==}
+    cpu: [arm64]
+    os: [android]
+
+  '@pnpm/exe.android-x64@12.15.0':
+    resolution: {integrity: sha512-Gx/WbkFcdUFUg8g8AShezcS9EiQxfYvdAm2hfKLO8sfJmJvKOCt5fzlgHWDzmGhoclibgW+tUGZ/KF4F4wOTCA==}
+    cpu: [x64]
+    os: [android]
+
+  '@pnpm/exe.darwin-arm64@12.15.0':
+    resolution: {integrity: sha512-N0ZykiDWCvqSBJvt71j7cSoBR993FqvYZFtmpCtqvW3pguiI+NAgraLPA5OTwu5mV+/d8hYpVcPktJA3xFDLtA==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@pnpm/exe.darwin-x64@12.15.0':
+    resolution: {integrity: sha512-7Ntr2HlBUxzwWOg7NwDxCbRW/3vXuqKO+hcXm+w3SBi9rrHY53li1wLqWVT7Gjxd+lVEHM1QJZo6WJEGFU8C6A==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@pnpm/exe.freebsd-x64@12.15.0':
+    resolution: {integrity: sha512-btOiyL7fL7W4uQGH0aqFai2TNC3IoKcZ7gNHBVbEFZt2dWrnrD0SufL3iGs3fLlmb4OtuU35uf4Zpr9V9Jh9mA==}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@pnpm/exe.linux-arm64-musl@12.15.0':
+    resolution: {integrity: sha512-pNC38k+O+90FOjbPNSnw0E7apq1PKTmz3fFe1amn+lys/U5kL++uzir8bRiho8ONcyA3d9EU7wdqcY0DKkj+JA==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@pnpm/exe.linux-arm64@12.15.0':
+    resolution: {integrity: sha512-qML/8aCXslh8td/w4U+HJNqUcZ2+m6EfTbWScIzZRmyPsRFN+xB4LP1U/hymxc1iSJiKtG56HJx2fvUErWFIGw==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-ppc64@12.15.0':
+    resolution: {integrity: sha512-tjRDUUl7RCJ6T/6eoNPxOqkwU4Mzi5RtTXmSAxujyz37OTwwsMU7Ps087Zk4gHcUvRSeyF40ZFsew3vtE+nmUA==}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-riscv64@12.15.0':
+    resolution: {integrity: sha512-bF1uBWEfbwaeryz6lIiaJ8AWD082otZfvzGX5l+6LZRpRwUEpJHUsJrORaYP5/cNMv5ZR2p6TvvcJcQzwtDzmw==}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-s390x@12.15.0':
+    resolution: {integrity: sha512-zKMhIzsexYMToeLmqV5jPsvV/f9vwsJb2kUH2NFYzalbxImeBrlA4kL7GwF8gD4pagV6jYYcJb8RjbZIdjHptg==}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.linux-x64-musl@12.15.0':
+    resolution: {integrity: sha512-A9J0Jg0Rdx+qQU4qXtwyST5tto9IOu1zi4fDk35nbc6DWahggbcKtFvZPKFwL2qgUXGXOX//hXv6z/sp6emO8A==}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@pnpm/exe.linux-x64@12.15.0':
+    resolution: {integrity: sha512-yc+QlZR+9+nr29J4fRzhMoapgxTBDndq/+peyoq1XUufnQFnfbXUMFudDIKzHi545linGqmOmXfn0NoufNgcOg==}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@pnpm/exe.win32-arm64@12.15.0':
+    resolution: {integrity: sha512-fPXZxuY1VclkOga9bc53qNCXcegfeoBR8+Ue+AospDwKzuGGSHll0oDxkLfkmpjyRqpe7bH5DyQPYp/xSMaIVA==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@pnpm/exe.win32-x64@12.15.0':
+    resolution: {integrity: sha512-nrd+Tp1We1DGj4DGG5Bea9lZNh9y1PjlLBdEwdInS4D0h0UIDtM7JaGGGDJhNzIwcHASyihWI7HLV+dtG+fhYg==}
+    cpu: [x64]
+    os: [win32]
+
+  pnpm@12.15.0:
+    resolution: {integrity: sha512-s5UdbW/0qfE9x89WzSjSuOs328ycaOUuHhGRhz6p+CoBcoerULqtxczElPA2xnwOR+sTYIwvo29HcRth6hKOYQ==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+snapshots:
+
+  '@pnpm/exe.android-arm64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.android-x64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.darwin-arm64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.darwin-x64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.freebsd-x64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-arm64-musl@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-arm64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-ppc64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-riscv64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-s390x@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-x64-musl@12.15.0':
+    optional: true
+
+  '@pnpm/exe.linux-x64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.win32-arm64@12.15.0':
+    optional: true
+
+  '@pnpm/exe.win32-x64@12.15.0':
+    optional: true
+
+  pnpm@12.15.0:
+    optionalDependencies:
+      '@pnpm/exe.android-arm64': 12.15.0
+      '@pnpm/exe.android-x64': 12.15.0
+      '@pnpm/exe.darwin-arm64': 12.15.0
+      '@pnpm/exe.darwin-x64': 12.15.0
+      '@pnpm/exe.freebsd-x64': 12.15.0
+      '@pnpm/exe.linux-arm64': 12.15.0
+      '@pnpm/exe.linux-arm64-musl': 12.15.0
+      '@pnpm/exe.linux-ppc64': 12.15.0
+      '@pnpm/exe.linux-riscv64': 12.15.0
+      '@pnpm/exe.linux-s390x': 12.15.0
+      '@pnpm/exe.linux-x64': 12.15.0
+      '@pnpm/exe.linux-x64-musl': 12.15.0
+      '@pnpm/exe.win32-arm64': 12.15.0
+      '@pnpm/exe.win32-x64': 12.15.0
+
+---
 lockfileVersion: '9.0'
 
 settings:
@@ -31,7 +189,7 @@ importers:
         version: 1.9.4
       '@vscode/vsce':
         specifier: 'catalog:'
-        version: 3.6.0
+        version: 3.6.0(supports-color@7.2.0)
 
   playground:
     devDependencies:
@@ -40,7 +198,7 @@ importers:
         version: 22.16.3
       tsup:
         specifier: 'catalog:'
-        version: 8.5.0(typescript@5.8.3)
+        version: 8.5.0(supports-color@7.2.0)(typescript@5.8.3)
       typescript:
         specifier: 'catalog:'
         version: 5.8.3
@@ -1782,34 +1940,34 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@azure/core-auth@1.9.0':
+  '@azure/core-auth@1.9.0(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.1.2
-      '@azure/core-util': 1.12.0
+      '@azure/core-util': 1.12.0(supports-color@7.2.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
 
-  '@azure/core-client@1.9.4':
+  '@azure/core-client@1.9.4(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.1.2
-      '@azure/core-auth': 1.9.0
-      '@azure/core-rest-pipeline': 1.21.0
+      '@azure/core-auth': 1.9.0(supports-color@7.2.0)
+      '@azure/core-rest-pipeline': 1.21.0(supports-color@7.2.0)
       '@azure/core-tracing': 1.2.0
-      '@azure/core-util': 1.12.0
-      '@azure/logger': 1.2.0
+      '@azure/core-util': 1.12.0(supports-color@7.2.0)
+      '@azure/logger': 1.2.0(supports-color@7.2.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
 
-  '@azure/core-rest-pipeline@1.21.0':
+  '@azure/core-rest-pipeline@1.21.0(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.1.2
-      '@azure/core-auth': 1.9.0
+      '@azure/core-auth': 1.9.0(supports-color@7.2.0)
       '@azure/core-tracing': 1.2.0
-      '@azure/core-util': 1.12.0
-      '@azure/logger': 1.2.0
-      '@typespec/ts-http-runtime': 0.2.3
+      '@azure/core-util': 1.12.0(supports-color@7.2.0)
+      '@azure/logger': 1.2.0(supports-color@7.2.0)
+      '@typespec/ts-http-runtime': 0.2.3(supports-color@7.2.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
@@ -1818,23 +1976,23 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@azure/core-util@1.12.0':
+  '@azure/core-util@1.12.0(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.1.2
-      '@typespec/ts-http-runtime': 0.2.3
+      '@typespec/ts-http-runtime': 0.2.3(supports-color@7.2.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
 
-  '@azure/identity@4.10.1':
+  '@azure/identity@4.10.1(supports-color@7.2.0)':
     dependencies:
       '@azure/abort-controller': 2.1.2
-      '@azure/core-auth': 1.9.0
-      '@azure/core-client': 1.9.4
-      '@azure/core-rest-pipeline': 1.21.0
+      '@azure/core-auth': 1.9.0(supports-color@7.2.0)
+      '@azure/core-client': 1.9.4(supports-color@7.2.0)
+      '@azure/core-rest-pipeline': 1.21.0(supports-color@7.2.0)
       '@azure/core-tracing': 1.2.0
-      '@azure/core-util': 1.12.0
-      '@azure/logger': 1.2.0
+      '@azure/core-util': 1.12.0(supports-color@7.2.0)
+      '@azure/logger': 1.2.0(supports-color@7.2.0)
       '@azure/msal-browser': 4.14.0
       '@azure/msal-node': 3.6.2
       open: 10.1.2
@@ -1842,9 +2000,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@azure/logger@1.2.0':
+  '@azure/logger@1.2.0(supports-color@7.2.0)':
     dependencies:
-      '@typespec/ts-http-runtime': 0.2.3
+      '@typespec/ts-http-runtime': 0.2.3(supports-color@7.2.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
@@ -2087,35 +2245,35 @@ snapshots:
     dependencies:
       '@secretlint/types': 10.1.1
 
-  '@secretlint/config-loader@10.1.1':
+  '@secretlint/config-loader@10.1.1(supports-color@7.2.0)':
     dependencies:
       '@secretlint/profiler': 10.1.1
       '@secretlint/resolver': 10.1.1
       '@secretlint/types': 10.1.1
       ajv: 8.17.1
-      debug: 4.4.1
-      rc-config-loader: 4.1.3
+      debug: 4.4.1(supports-color@7.2.0)
+      rc-config-loader: 4.1.3(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@secretlint/core@10.1.1':
+  '@secretlint/core@10.1.1(supports-color@7.2.0)':
     dependencies:
       '@secretlint/profiler': 10.1.1
       '@secretlint/types': 10.1.1
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       structured-source: 4.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@secretlint/formatter@10.1.1':
+  '@secretlint/formatter@10.1.1(supports-color@7.2.0)':
     dependencies:
       '@secretlint/resolver': 10.1.1
       '@secretlint/types': 10.1.1
-      '@textlint/linter-formatter': 14.8.4
+      '@textlint/linter-formatter': 14.8.4(supports-color@7.2.0)
       '@textlint/module-interop': 14.8.4
       '@textlint/types': 14.8.4
       chalk: 4.1.2
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       pluralize: 8.0.0
       strip-ansi: 6.0.1
       table: 6.9.0
@@ -2123,15 +2281,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@secretlint/node@10.1.1':
+  '@secretlint/node@10.1.1(supports-color@7.2.0)':
     dependencies:
-      '@secretlint/config-loader': 10.1.1
-      '@secretlint/core': 10.1.1
-      '@secretlint/formatter': 10.1.1
+      '@secretlint/config-loader': 10.1.1(supports-color@7.2.0)
+      '@secretlint/core': 10.1.1(supports-color@7.2.0)
+      '@secretlint/formatter': 10.1.1(supports-color@7.2.0)
       '@secretlint/profiler': 10.1.1
       '@secretlint/source-creator': 10.1.1
       '@secretlint/types': 10.1.1
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       p-map: 7.0.3
     transitivePeerDependencies:
       - supports-color
@@ -2161,7 +2319,7 @@ snapshots:
 
   '@textlint/ast-node-types@14.8.4': {}
 
-  '@textlint/linter-formatter@14.8.4':
+  '@textlint/linter-formatter@14.8.4(supports-color@7.2.0)':
     dependencies:
       '@azu/format-text': 1.0.2
       '@azu/style-format': 1.0.1
@@ -2169,7 +2327,7 @@ snapshots:
       '@textlint/resolver': 14.8.4
       '@textlint/types': 14.8.4
       chalk: 4.1.2
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       js-yaml: 3.14.1
       lodash: 4.17.21
       pluralize: 2.0.0
@@ -2198,10 +2356,10 @@ snapshots:
 
   '@types/sarif@2.1.7': {}
 
-  '@typespec/ts-http-runtime@0.2.3':
+  '@typespec/ts-http-runtime@0.2.3(supports-color@7.2.0)':
     dependencies:
-      http-proxy-agent: 7.0.2
-      https-proxy-agent: 7.0.6
+      http-proxy-agent: 7.0.2(supports-color@7.2.0)
+      https-proxy-agent: 7.0.6(supports-color@7.2.0)
       tslib: 2.8.1
     transitivePeerDependencies:
       - supports-color
@@ -2245,10 +2403,10 @@ snapshots:
       '@vscode/vsce-sign-win32-arm64': 2.0.5
       '@vscode/vsce-sign-win32-x64': 2.0.5
 
-  '@vscode/vsce@3.6.0':
+  '@vscode/vsce@3.6.0(supports-color@7.2.0)':
     dependencies:
-      '@azure/identity': 4.10.1
-      '@secretlint/node': 10.1.1
+      '@azure/identity': 4.10.1(supports-color@7.2.0)
+      '@secretlint/node': 10.1.1(supports-color@7.2.0)
       '@secretlint/secretlint-formatter-sarif': 10.1.1
       '@secretlint/secretlint-rule-no-dotenv': 10.1.1
       '@secretlint/secretlint-rule-preset-recommend': 10.1.1
@@ -2268,7 +2426,7 @@ snapshots:
       minimatch: 3.1.2
       parse-semver: 1.1.1
       read: 1.0.7
-      secretlint: 10.1.1
+      secretlint: 10.1.1(supports-color@7.2.0)
       semver: 7.7.2
       tmp: 0.2.3
       typed-rest-client: 1.8.11
@@ -2460,9 +2618,11 @@ snapshots:
 
   css-what@6.2.2: {}
 
-  debug@4.4.1:
+  debug@4.4.1(supports-color@7.2.0):
     dependencies:
       ms: 2.1.3
+    optionalDependencies:
+      supports-color: 7.2.0
 
   decompress-response@6.0.0:
     dependencies:
@@ -2734,17 +2894,17 @@ snapshots:
       domutils: 3.2.2
       entities: 6.0.1
 
-  http-proxy-agent@7.0.2:
+  http-proxy-agent@7.0.2(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  https-proxy-agent@7.0.6:
+  https-proxy-agent@7.0.6(supports-color@7.2.0):
     dependencies:
       agent-base: 7.1.3
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3117,9 +3277,9 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  rc-config-loader@4.1.3:
+  rc-config-loader@4.1.3(supports-color@7.2.0):
     dependencies:
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       js-yaml: 4.1.0
       json5: 2.2.3
       require-from-string: 2.0.2
@@ -3198,13 +3358,13 @@ snapshots:
 
   sax@1.4.1: {}
 
-  secretlint@10.1.1:
+  secretlint@10.1.1(supports-color@7.2.0):
     dependencies:
       '@secretlint/config-creator': 10.1.1
-      '@secretlint/formatter': 10.1.1
-      '@secretlint/node': 10.1.1
+      '@secretlint/formatter': 10.1.1(supports-color@7.2.0)
+      '@secretlint/node': 10.1.1(supports-color@7.2.0)
       '@secretlint/profiler': 10.1.1
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       globby: 14.1.0
       read-pkg: 8.1.0
     transitivePeerDependencies:
@@ -3406,13 +3566,13 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.5.0(typescript@5.8.3):
+  tsup@8.5.0(supports-color@7.2.0)(typescript@5.8.3):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.5)
       cac: 6.7.14
       chokidar: 4.0.3
       consola: 3.4.2
-      debug: 4.4.1
+      debug: 4.4.1(supports-color@7.2.0)
       esbuild: 0.25.5
       fix-dts-default-cjs-exports: 1.0.1
       joycon: 3.1.1
